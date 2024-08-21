@@ -1,17 +1,18 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Vue logo" src="./assets/logo.png"><!--HelloWordをSearchUserに変更-->
+    <!--<HelloWorld msg="Welcome to Your Vue.js App"/>-->
+	<SearchUser />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import SearchUser from './components/SearchUser.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    SearchUser
   }
 }
 </script>
